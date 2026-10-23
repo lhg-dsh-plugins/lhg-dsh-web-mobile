@@ -1,0 +1,29 @@
+node_modules/
+.client-build/
+*.log
+
+.learnings/
+.codegraph/
+docs/superpowers/
+
+# Playwright 本地测试工具（不提交）
+.local-tests/
+playwright.config.ts
+test/
+test-results/
+playwright-report/
+.dsh-vision-toolkit/
+
+# 本地调试地图（决定不上传，仅本地保留）
+docs/debug/settings-market-debug-map.md
+
+# 成员完工交接文档（团队过程记录，仅本地保留，2026-09-24 起）
+docs/handover/
+
+# 2026-09-17 composer DOM recon（与 settings-market-debug-map.md 同类：带日期的现场快照，不入库）
+docs/debug/composer-tree-recon.md
+
+# 仅本地保留的文档区（2026-10-13 用户要求：docs 下只上传 maintenance 与 debug）
+# audits = 带日期的审计快照，fork-wzxmt-zhc = 外部 fork 对账记录；两者都是过程产物
+docs/audits/
+docs/fork-wzxmt-zhc/
